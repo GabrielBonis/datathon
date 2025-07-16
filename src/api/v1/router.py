@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from src.datathon.api.v1.endpoints import predict, auth, arquivos
+from src.api.v1.endpoints import predict, auth, arquivos
 
 router = APIRouter()
 
